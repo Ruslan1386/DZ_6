@@ -1,0 +1,66 @@
+body{
+	background:rgba(128, 128, 128, 0.37);
+}
+.full-wrap{
+	width: 1200px;
+	margin: auto;
+	background: white;
+}
+.p1{
+	background: green;
+}
+.p1:hover{
+	background-color: yellow;
+}
+
+.p1:active{
+	background-color: red;
+}
+
+.p2{
+	background: purple;
+}
+.p2:hover{
+	background-color: brown;
+}
+
+.p2:active{
+	background-color: gold;
+}
+
+.text:focus{
+	border: 2px solid green;
+}
+
+.p3:nth-child(2n+1){
+	background: gray;
+}
+.p3::first-letter{
+	font-size: 2em;
+	color: red;
+	font-family: Georgia;
+}
+.p3::after{
+	content: '*';
+}
+.p4::before{
+	content: "\2602" ;
+}
+
+.figure{
+	margin: auto;
+	position: relative;
+	width: 60px;
+	height: 40px;
+	background: black;
+}
+
+.figure::before{
+	content: "";
+	position: absolute;
+	left: -30px;
+	top: 10px;
+	border: 10px solid transparent;
+	border-right: 20px solid black;
+}
+

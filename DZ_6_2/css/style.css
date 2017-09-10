@@ -1,0 +1,126 @@
+body{
+	background:rgba(128, 128, 128, 0.6);
+}
+
+.full-wrap{
+	width: 600px;
+	margin: auto;
+	background: white;
+}
+
+.table_6_1{
+	width: 100%;
+	margin: auto;
+	border-collapse: collapse;
+	font-family: arial;
+	font-size: 15px;
+}
+
+.cell{
+	border: 2px solid black;
+	padding: 5px;
+}
+.cell-2{
+	text-align: center;
+	font-weight: normal;
+}
+
+.table_6_2{
+	width: 100%;
+	margin: auto;
+	margin-top: 50px;
+	font-size: 15px;
+	font-family: arial;
+	border-collapse: collapse;
+}
+
+.head_6_2{
+	border-bottom: 2px solid gray;
+	text-align: left;
+}
+
+.cell_6_2{
+	padding: 10px;
+}
+
+.table_6_4{
+	width: 100%;
+	margin: auto;
+	margin-top: 50px;
+	font-size: 15px;
+	font-family: arial;
+	border-collapse: collapse;
+}
+
+.button_all{
+	background: red;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	border: 1px solid red;
+}
+
+.button_plus{
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+}
+
+.button_dell{
+	background: rgba(255, 0, 0, 0.64);
+	border: 1px solid rgba(255, 0, 0, 0.64);
+}
+
+.first_collum{
+	color: rgba(255, 0, 0, 0.64);
+}
+
+.discont{
+	text-align: right;	
+	padding-top: 20px;
+	border-right: 5px solid gray;
+}
+.discont_1{
+	color: gray;
+	padding: 0px;
+}
+
+.basket{
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+}
+	
+
+.basket_a{
+	font-size: 20px;
+	color: red;	
+	font-style: italic;
+	text-decoration: none;
+}
+
+.div_2{
+	width: 93%;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	border: 3px solid #8a8a8a;
+	box-shadow: 0px 0px 9px 5px #8a8a8a;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.closse{
+	position: absolute;
+	bottom: 348px;
+	left: 565px;
+	width: 30px;
+	height: 30px;
+	font-weight: bold;
+	padding: 0px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	background: black;
+	border: 3px double gray;
+	border-radius: 100%;
+}
